@@ -1,0 +1,7 @@
+site: _site
+s3_bucket: oke.engineering
+cloudfront_distribution_id: E2HN119AR90GTD
+
+cache_rules:
+    - match: "*"
+    - maxage: 30 days

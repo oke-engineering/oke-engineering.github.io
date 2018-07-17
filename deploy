@@ -1,0 +1,22 @@
+#!/usr/bin/env bash
+#
+# Deploy site to s3
+
+# source credentials into ENV variables from file: './.AWS_CREDENTIALS'
+# If file doesn't exist, create it to export the variables
+#    - AWS_ACCESS_KEY_ID
+#    - AWS_SECRET_ACCESS_KEY
+#
+# Get the credentials from AWS IAM page for account with write access to the S3 bucket
+AWS_CREDENTIALS_FILE='.AWS_CREDENTIALS'
+if [[ -s ./$AWS_CREDENTIALS_FILE ]] ; then
+	. ./$AWS_CREDENTIALS_FILE
+else
+	echo "Can't find AWS Credentials File - '$AWS_CREDENTIALS_FILE'" >&2
+	exit 1
+fi
+
+# Run deploy script
+# Install with:
+# $> pip install s3-deploy-website
+s3-deploy-website
