@@ -122,11 +122,13 @@ img::-moz-selection {
   color: black;
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
   font-style: italic;
+  letter-spacing: 1px;
   /* font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; */
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
   color: #fec503;
+  letter-spacing: 3px;
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
@@ -173,7 +175,6 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: white;
-    font-weight: 200;
     font-size: 1.25em;
     padding: 12px 0;
   }
