@@ -119,7 +119,7 @@ img::-moz-selection {
 
 #mainNav .navbar-brand {
   /* color: #fed136; */
-  color: black;
+  color: white;
   font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
   font-style: italic;
   letter-spacing: 1px;
@@ -131,6 +131,7 @@ img::-moz-selection {
 #mainNav .navbar-brand img {
 	height: 7vh;
 	padding-right: 3vh;
+	filter: invert(100%);
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -152,10 +153,6 @@ img::-moz-selection {
   color: #fed136;
 }
 
-#logo {
-	/* margin-bottom: -23%; */
-	height: 100vh;
-}
 
 @media (min-width: 992px) {
   #mainNav {
@@ -169,6 +166,7 @@ img::-moz-selection {
     background-color: rgba(50, 50, 50, 0.25);
   }
   #mainNav .navbar-brand {
+    color: white;
     font-size: 1.75em;
     -webkit-transition: all 0.3s;
     -moz-transition: all 0.3s;
@@ -187,16 +185,19 @@ img::-moz-selection {
   }
   #mainNav.navbar-shrink .navbar-brand {
     color: white;
-    font-size: 1.25em;
+    /* font-size: 1.25em; */
     padding: 12px 0;
-  }
-  #mainNav.navbar-shrink .navbar-brand img {
-	  filter: invert(100%);
   }
   #mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
     color: white;
     font-size: 90%;
     font-weight: normal;
+  }
+  #mainNav .navbar-brand img {
+    filter: invert(0%);
+  }
+  #mainNav.navbar-shrink .navbar-brand img {
+    filter: invert(100%);
   }
 }
 
