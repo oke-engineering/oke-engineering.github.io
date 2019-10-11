@@ -216,9 +216,19 @@ header.masthead {
 	background-size: cover;
 }
 
+header.about {
+	color: white;
+	background-image: url("../img/header-about-bg.jpg");
+}
+
 header.masthead .intro-text {
 	padding-top: 150px;
 	padding-bottom: 100px;
+}
+
+header.masthead .intro-text .about{
+	padding-top: 500px;
+	padding-bottom: 10px;
 }
 
 header.masthead .intro-text .intro-lead-in {
@@ -241,6 +251,10 @@ header.masthead .intro-text .intro-heading {
 	header.masthead .intro-text {
 		padding-top: 300px;
 		padding-bottom: 200px;
+	}
+	header.masthead .about {
+		padding-top: 500px;
+		padding-bottom: 10px;
 	}
 	header.masthead .intro-text .intro-lead-in {
 		font-size: 3vw;
@@ -278,6 +292,7 @@ header.masthead .intro-text .intro-heading {
 		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	}
 }
+
 .service-heading {
 	margin: 15px 0;
 	text-transform: none;
@@ -288,6 +303,22 @@ header.masthead .intro-text .intro-heading {
 	display: inline-block;
 	width: 150px;
 	height: 150px;
+	vertical-align: middle;
+	line-height: 2em;
+	border-style: none;
+	font-size: 4em;
+	box-sizing: border-box;
+}
+
+.bio-heading {
+	margin: 15px 0;
+	text-transform: none;
+}
+
+.bio-image {
+	position: relative;
+	display: inline-block;
+	width: 30vw;
 	vertical-align: middle;
 	line-height: 2em;
 	border-style: none;
