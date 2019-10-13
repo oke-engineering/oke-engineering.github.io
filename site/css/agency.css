@@ -145,7 +145,6 @@ img::-moz-selection {
 	font-size: 90%;
 	font-weight: 400;
 	display: initial;
-	padding: 0.75em 0;
 	letter-spacing: 1px;
 	color: white;
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
@@ -175,20 +174,17 @@ img::-moz-selection {
 		transition: all 0.3s;
 	}
 	#mainNav .navbar-nav .nav-item .nav-link {
-		padding: 1.1em 1em !important;
 		color: white;
 		font-size: 160%;
 		font-weight: bold;
 	}
 	#mainNav.navbar-shrink {
-		padding-top: 0;
-		padding-bottom: 0;
 		background-color: #212529;
 	}
 	#mainNav.navbar-shrink .navbar-brand {
 		color: white;
 		/* font-size: 1.25em; */
-		padding: 12px 0;
+		/*padding: 12px 0;*/
 	}
 	#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
 		color: white;
