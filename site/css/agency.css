@@ -109,9 +109,8 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-toggler {
-	font-size: 12px;
+	font-size: 1.25rem;
 	right: 0;
-	padding: 0;
 	text-transform: uppercase;
 	color: white;
 	border: 0;
@@ -143,7 +142,7 @@ img::-moz-selection {
 
 #mainNav .navbar-nav .nav-item .nav-link {
 	font-size: 90%;
-	font-weight: 400;
+	font-weight: bold;
 	display: initial;
 	letter-spacing: 1px;
 	color: white;
@@ -175,7 +174,7 @@ img::-moz-selection {
 	}
 	#mainNav .navbar-nav .nav-item .nav-link {
 		color: white;
-		font-size: 160%;
+		font-size: 90%;
 		font-weight: bold;
 	}
 	#mainNav.navbar-shrink {
@@ -189,7 +188,7 @@ img::-moz-selection {
 	#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
 		color: white;
 		font-size: 90%;
-		font-weight: normal;
+		font-weight: bold;
 	}
 	#mainNav .navbar-brand img {
 		filter: invert(0%);
