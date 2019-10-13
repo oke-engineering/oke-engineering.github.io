@@ -1,6 +1,5 @@
 html.open.part.html
 head.open.part.html
-js.main.partial.html
 head.close.part.html
 body.open.part.html
 navbar.main.partial.html
@@ -8,5 +7,6 @@ header.about.part.html
 section.bios.part.html
 section.about.part.html
 footer.main.partial.html
+js.main.partial.html
 body.close.part.html
 html.close.part.html
