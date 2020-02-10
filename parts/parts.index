@@ -6,6 +6,7 @@ navbar.main.partial.html
 header.main.part.html
 section.services.part.html
 section.about.part.html
+section.gallery.part.html
 section.contact.part.html
 footer.main.partial.html
 js.main.partial.html

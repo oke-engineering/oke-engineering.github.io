@@ -61,6 +61,42 @@ section h3.section-subheading {
 	}
 }
 
+.indent {
+	padding-left: 2em;
+}
+
+.list {
+	text-align: left
+}
+
+.flex-column {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-column-nowrap {
+	display: flex;
+	flex-direction: column;
+}
+
+.flex-row {
+	display: flex;
+	flex-direction: row;
+}
+
+.flex-row-nowrap {
+	display: flex;
+	flex-direction: row nowrap;
+}
+
+.flex-space-evenly {
+	justify-content: space-evenly;
+}
+
+.flex-space-between {
+	justify-content: space-between;
+}
+
 .btn {
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 	font-weight: 700;
@@ -141,10 +177,9 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-nav .nav-item .nav-link {
-	font-size: 90%;
+	font-size: 130%;
 	font-weight: bold;
 	display: initial;
-	letter-spacing: 1px;
 	color: white;
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -153,6 +188,11 @@ img::-moz-selection {
 	color: #fed136;
 }
 
+#navItemContainer {
+	display: flex;
+	flex-flow: column nowrap;
+	justify-content: space-evenly;
+}
 
 @media (min-width: 992px) {
 	#mainNav {
@@ -174,7 +214,7 @@ img::-moz-selection {
 	}
 	#mainNav .navbar-nav .nav-item .nav-link {
 		color: white;
-		font-size: 90%;
+		font-size: 130%;
 		font-weight: bold;
 	}
 	#mainNav.navbar-shrink {
@@ -187,7 +227,7 @@ img::-moz-selection {
 	}
 	#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
 		color: white;
-		font-size: 90%;
+		font-size: 130%;
 		font-weight: bold;
 	}
 	#mainNav .navbar-brand img {
@@ -196,6 +236,14 @@ img::-moz-selection {
 	#mainNav.navbar-shrink .navbar-brand img {
 		filter: invert(100%);
 	}
+
+	#navItemContainer {
+		display: flex;
+		flex-flow: row nowrap;
+		justify-content: space-evenly;
+		width: 100%;
+	}
+
 }
 
 header.masthead {
@@ -310,15 +358,18 @@ header.masthead .intro-text .intro-heading {
 	text-transform: none;
 }
 
-.bio-image {
+.bio-box {
 	position: relative;
 	display: inline-block;
 	width: 30vw;
+	padding-bottom: 2vw;
 	vertical-align: middle;
-	line-height: 2em;
 	border-style: none;
-	font-size: 4em;
 	box-sizing: border-box;
+}
+
+.bio-pic {
+	width: 100%;
 }
 
 #design-image {

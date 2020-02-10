@@ -4,8 +4,9 @@ head.close.part.html
 body.open.part.html
 navbar.main.partial.html
 header.about.part.html
-section.bios.part.html
 section.about.part.html
+section.team.part.html
+section.gallery.part.html
 footer.main.partial.html
 js.main.partial.html
 body.close.part.html
