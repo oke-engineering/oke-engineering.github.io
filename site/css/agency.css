@@ -79,9 +79,17 @@ section h3.section-subheading {
 	flex-direction: column;
 }
 
-.flex-row {
+.flex-row-collapse {
+	width: 100%;
 	display: flex;
-	flex-direction: row;
+	flex-direction: column;
+}
+
+@media (min-width: 992px) {
+	.flex-row-collapse {
+		display: flex;
+		flex-direction: row;
+	}
 }
 
 .flex-row-nowrap {
@@ -337,7 +345,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .service-heading {
-	margin: 15px 0;
+	margin: 0;
 	text-transform: none;
 }
 
@@ -360,16 +368,26 @@ header.masthead .intro-text .intro-heading {
 
 .bio-box {
 	position: relative;
-	display: inline-block;
-	width: 30vw;
-	padding-bottom: 2vw;
+	display: block;
+	width: 100%;
+	padding: 2vw;
 	vertical-align: middle;
 	border-style: none;
 	box-sizing: border-box;
 }
 
 .bio-pic {
-	width: 100%;
+	width: 50%;
+}
+
+@media (min-width: 992px) {
+	.bio-box {
+		width: 35vw;
+	}
+
+	.bio-pic {
+		width: 100%;
+	}
 }
 
 #design-image {
@@ -379,13 +397,14 @@ header.masthead .intro-text .intro-heading {
 div.block-of-text {
 	margin-left: auto;
 	margin-right: auto;
-	width: 60vw;
+	width: 90vw;
 	text-align: justify;
+	text-indent: 2em;
 }
 
 @media (min-width: 992px) {
 	div.block-of-text {
-		width: 600px
+		width: 800px
 	}
 }
 
