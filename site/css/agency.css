@@ -397,7 +397,9 @@ header.masthead .intro-text .intro-heading {
 div.block-of-text {
 	margin-left: auto;
 	margin-right: auto;
+	/*
 	width: 90vw;
+	*/
 	text-align: justify;
 	text-indent: 2em;
 }
