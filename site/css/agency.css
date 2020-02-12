@@ -348,6 +348,7 @@ header.masthead .intro-text .intro-heading {
 .service-heading {
 	margin: 0;
 	text-transform: none;
+	padding-bottom: 0.5em;
 }
 
 .service-image {
