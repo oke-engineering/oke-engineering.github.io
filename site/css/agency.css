@@ -379,7 +379,7 @@ header.masthead .intro-text .intro-heading {
 }
 
 .bio-pic {
-	width: 50%;
+	width: 25vh;
 }
 
 @media (min-width: 992px) {
