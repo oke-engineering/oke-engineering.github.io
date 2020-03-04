@@ -1,0 +1,11 @@
+html.open.part.html
+head.open.part.html
+head.close.part.html
+body.open.part.html
+navbar.main.partial.html
+section.positions.part.html
+section.position_contact.part.html
+footer.main.partial.html
+js.main.partial.html
+body.close.part.html
+html.close.part.html
