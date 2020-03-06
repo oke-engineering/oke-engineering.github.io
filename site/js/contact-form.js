@@ -1,6 +1,6 @@
 function submitToAPI(e) {
 	e.preventDefault();
-	var URL = "https://p812a84kyg.execute-api.us-east-1.amazonaws.com/default/oke-engineering-contact-form-file-attachment";
+	var URL = "https://0c9hzp8v6g.execute-api.us-east-1.amazonaws.com/default/oke-engineering-contact-form-file-attachment";
 
 	var Namere = /[A-Za-z]{1}[A-Za-z]/;
 	if (!Namere.test($("#name-input").val())) {
