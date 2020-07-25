@@ -95,7 +95,7 @@ section h3.section-subheading {
 
 .flex-row-nowrap {
 	display: flex;
-	flex-direction: row nowrap;
+	flex-flow: row nowrap;
 }
 
 .flex-space-evenly {
@@ -164,30 +164,31 @@ img::-moz-selection {
 }
 
 #mainNav .navbar-brand {
-	/* color: #fed136; */
-	color: white;
-	font-family: Impact, Haettenschweiler, "Franklin Gothic Bold", Charcoal, "Helvetica Inserat", "Bitstream Vera Sans Bold", "Arial Black", "sans serif";
-	font-style: italic;
-	letter-spacing: 1px;
-	/* background: url(../img/logos/oe-logo-150.png) left center no-repeat;
-	background-size: 10vh; */
-	/* font-family: 'Kaushan Script', 'Helvetica Neue', Helvetica, Arial, cursive; */
+	font-size: 0;
+	padding-top: 0;
+	display: flex;
+	flex-flow: row;
+	align-items: center;
 }
 
-#mainNav .navbar-brand img {
-	height: 7vh;
-	padding-right: 3vh;
+#mainNav .navbar-brand div {
+	height: 80%;
+	padding-right: 1vh;
 	/* filter: invert(100%); */
 	filter: invert(0%);
 }
 
-#mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
-	color: #fec503;
-	letter-spacing: 3px;
+#logo {
+	height: 30px;
 }
 
+/* #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover { */
+/* 	color: #fec503; */
+/* 	letter-spacing: 3px; */
+/* } */
+
 #mainNav .navbar-nav .nav-item .nav-link {
-	font-size: 130%;
+	font-size: 100%;
 	font-weight: bold;
 	display: initial;
 	color: white;
@@ -216,15 +217,16 @@ img::-moz-selection {
 		/* background-color: rgba(50, 50, 50, 0.25); */
 	}
 	#mainNav .navbar-brand {
-		color: white;
-		font-size: 1.75em;
-		-webkit-transition: all 0.3s;
-		-moz-transition: all 0.3s;
-		transition: all 0.3s;
+		display: flex;
+		flex-flow: row;
+		align-items: center;
+	}
+	#logo {
+		height: 30px;
 	}
 	#mainNav .navbar-nav .nav-item .nav-link {
 		color: white;
-		font-size: 130%;
+		font-size: 100%;
 		font-weight: bold;
 	}
 	#mainNav.navbar-shrink {
@@ -237,13 +239,13 @@ img::-moz-selection {
 	}
 	#mainNav.navbar-shrink .navbar-nav .nav-item .nav-link {
 		color: white;
-		font-size: 130%;
+		font-size: 100%;
 		font-weight: bold;
 	}
-	#mainNav .navbar-brand img {
+	#mainNav .navbar-brand div {
 		filter: invert(0%);
 	}
-	#mainNav.navbar-shrink .navbar-brand img {
+	#mainNav.navbar-shrink .navbar-brand div {
 		/* filter: invert(100%); */
 		filter: invert(0%);
 	}
