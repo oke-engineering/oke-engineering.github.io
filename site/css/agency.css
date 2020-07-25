@@ -177,7 +177,8 @@ img::-moz-selection {
 #mainNav .navbar-brand img {
 	height: 7vh;
 	padding-right: 3vh;
-	filter: invert(100%);
+	/* filter: invert(100%); */
+	filter: invert(0%);
 }
 
 #mainNav .navbar-brand.active, #mainNav .navbar-brand:active, #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -212,7 +213,7 @@ img::-moz-selection {
 		transition: padding-top 0.3s, padding-bottom 0.3s;
 		border: none;
 		/* background-color: transparent; */
-		background-color: rgba(50, 50, 50, 0.25);
+		/* background-color: rgba(50, 50, 50, 0.25); */
 	}
 	#mainNav .navbar-brand {
 		color: white;
@@ -243,7 +244,8 @@ img::-moz-selection {
 		filter: invert(0%);
 	}
 	#mainNav.navbar-shrink .navbar-brand img {
-		filter: invert(100%);
+		/* filter: invert(100%); */
+		filter: invert(0%);
 	}
 
 	#navItemContainer {
