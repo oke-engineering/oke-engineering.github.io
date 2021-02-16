@@ -432,7 +432,13 @@ section#contact .section-heading {
 }
 
 section#contact .form-group {
-	margin-bottom: 25px;
+	/* margin-bottom: 25px; */
+	margin-bottom: 0px;
+}
+
+section#contact .form-group label {
+	color: white;
+	text-transform: uppercase;
 }
 
 section#contact .form-group input,
