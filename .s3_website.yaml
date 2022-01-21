@@ -1,7 +1,1 @@
-site: site
-s3_bucket: okenichols.com
-cloudfront_distribution_id: E1XK8ZQ7EOHER4
-
-cache_rules:
-    - match: "*"
-    - maxage: 15 minutes
+.s3_website.okenichols.yaml
