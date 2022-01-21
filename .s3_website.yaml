@@ -1,6 +1,6 @@
 site: site
-s3_bucket: oke.engineering
-cloudfront_distribution_id: E2HN119AR90GTD
+s3_bucket: okenichols.com
+cloudfront_distribution_id: E1XK8ZQ7EOHER4
 
 cache_rules:
     - match: "*"
