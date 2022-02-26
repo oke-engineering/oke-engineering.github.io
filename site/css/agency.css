@@ -262,6 +262,7 @@ img::-moz-selection {
 header.masthead {
 	text-align: center;
 	color: black;
+	text-shadow: 1px 1px 0px #FFFFFF;
 	background-image: url("../img/header-bg.jpg");
 	background-repeat: no-repeat;
 	background-attachment: scroll;
@@ -274,7 +275,8 @@ header.masthead {
 
 header.about {
 	color: white;
-	background-image: url("../img/header-about-bg.jpg");
+	text-shadow: 1px 1px 0px #000000;
+	background-image: url("../img/header-ben-dylan.jpg");
 }
 
 header.masthead .intro-text {
