@@ -25,6 +25,7 @@ a:hover {
 	color: #fed136 !important;
 }
 
+
 h1,
 h2,
 h3,
@@ -41,25 +42,16 @@ section {
 }
 
 section h2.section-heading {
-	font-size: 40px;
 	margin-top: 0;
 	margin-bottom: 15px;
 }
 
 section h3.section-subheading {
-	font-size: 16px;
 	font-weight: 400;
 	font-style: italic;
 	margin-bottom: 75px;
 	text-transform: none;
 	font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-}
-
-@media (min-width: 768px) {
-	section {
-		padding-top: 75px;
-		padding-bottom: 40px;
-	}
 }
 
 .indent {
@@ -86,7 +78,7 @@ section h3.section-subheading {
 	flex-direction: column;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 	.flex-row-collapse {
 		display: flex;
 		flex-direction: row;
@@ -205,7 +197,7 @@ img::-moz-selection {
 	justify-content: space-evenly;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 	#mainNav {
 		/* padding-top: 25px; */
 		/* padding-bottom: 25px; */
@@ -267,73 +259,46 @@ header.masthead {
 	background-repeat: no-repeat;
 	background-attachment: scroll;
 	background-position: center center;
-	-webkit-background-size: cover;
-	-moz-background-size: cover;
-	-o-background-size: cover;
 	background-size: cover;
 }
 
 header.about {
 	color: white;
+	margin-top:50px;
 	text-shadow: 1px 1px 0px #000000;
 	background-image: url("../img/header-about-bg.jpg");
+	background-size: cover;
 }
 
 header.masthead .intro-text {
-	padding-top: 150px;
-	padding-bottom: 100px;
-}
-
-header.masthead .intro-text .about{
-	padding-top: 500px;
-	padding-bottom: 10px;
+	padding-top: 40vw;
+	padding-bottom: 3vw;
 }
 
 header.masthead .intro-text .intro-lead-in {
-	font-size: 22px;
+	font-size: 3vw;
 	font-style: italic;
-	line-height: 22px;
-	margin-bottom: 25px;
+	line-height: 3vw;
+	margin-bottom: 5px;
 	font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
 header.masthead .intro-text .intro-heading {
-	font-size: 40px;
+	font-size: 6.6vw;
 	font-weight: 700;
-	line-height: 40px;
-	margin-bottom: 25px;
+	line-height: 6.6vw;
+	margin-bottom: 15px;
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 475px) {
-	header.masthead .intro-text {
-		padding-top: 300px;
-		padding-bottom: 200px;
+@media (min-width: 1024px) {
+	header.masthead {
+		background-size: cover;
 	}
-	header.masthead .about {
-		padding-top: 500px;
-		padding-bottom: 10px;
-	}
-	header.masthead .intro-text .intro-lead-in {
-		font-size: 3vw;
-		font-style: italic;
-		line-height: 3vw;
-		margin-bottom: 25px;
-		font-family: 'Droid Serif', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	}
-	header.masthead .intro-text .intro-heading {
-		font-size: 6.6vw;
-		font-weight: 700;
-		line-height: 6.6vw;
-		margin-bottom: 50px;
-		font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
-	}
-}
 
-@media (min-width: 1600px) {
 	header.masthead .intro-text {
-		padding-top: 300px;
-		padding-bottom: 200px;
+		padding-top: 40vw;
+		padding-bottom: 3vw;
 	}
 	header.masthead .intro-text .intro-lead-in {
 		font-size: 2.5vw;
@@ -388,7 +353,7 @@ header.masthead .intro-text .intro-heading {
 	width: 25vh;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 	.bio-box {
 		width: 35vw;
 	}
@@ -416,7 +381,7 @@ div.block-of-text {
 	text-indent: 0px !important;
 }
 
-@media (min-width: 992px) {
+@media (min-width: 1024px) {
 	div.block-of-text {
 		width: 800px
 	}
