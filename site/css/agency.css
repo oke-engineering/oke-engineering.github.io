@@ -78,7 +78,7 @@ section h3.section-subheading {
 	flex-direction: column;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
 	.flex-row-collapse {
 		display: flex;
 		flex-direction: row;
@@ -197,7 +197,7 @@ img::-moz-selection {
 	justify-content: space-evenly;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
 	#mainNav {
 		/* padding-top: 25px; */
 		/* padding-bottom: 25px; */
@@ -291,7 +291,7 @@ header.masthead .intro-text .intro-heading {
 	font-family: 'Montserrat', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
 	header.masthead {
 		background-size: cover;
 	}
@@ -353,7 +353,7 @@ header.masthead .intro-text .intro-heading {
 	width: 25vh;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
 	.bio-box {
 		width: 35vw;
 	}
@@ -381,7 +381,7 @@ div.block-of-text {
 	text-indent: 0px !important;
 }
 
-@media (min-width: 1024px) {
+@media (min-width: 992px) {
 	div.block-of-text {
 		width: 800px
 	}
